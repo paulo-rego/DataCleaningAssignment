@@ -1,0 +1,146 @@
+***Detailed description of the variables on tidyData.txt dataset***
+
+All variables (except subject_id and activity) were obtained by averaging the measurements of each variable for each subject
+
+All variables (except subject_id and activity) have been normalized, ranging from -1 to 1
+
+All the code used to obtain these results from the raw data is available on run_analysis.R script
+
+
+
+
+subject_id : The id identifying the subject  
+                                  
+activity : Which activity was being performed  
+                                    
+time_body_acceleration_mean_xAxis : mean of the body linear acceleration on X Axis captured at a constant rate of 50 Hz   
+           
+time_body_acceleration_mean_yAxis : mean of the body linear acceleration on Y Axis captured at a constant rate of 50 Hz 
+             
+time_body_acceleration_mean_zAxis : mean of the body linear acceleration on Z Axis captured at a constant rate of 50 Hz 
+            
+time_Gravity_acceleration_mean_xAxis : mean of the gravity linear acceleration on X Axis captured at a constant rate of 50 Hz 
+         
+time_Gravity_acceleration_mean_yAxis : mean of the gravity linear acceleration on Y Axis captured at a constant rate of 50 Hz 
+          
+time_Gravity_acceleration_mean_zAxis : mean of the gravity linear acceleration on Z Axis captured at a constant rate of 50 Hz
+           
+time_body_acceleration_jerk_mean_xAxis : jerk signal obtained by deriving "time_body_acceleration_mean_xAxis"
+        
+time_body_acceleration_jerk_mean_yAxis : jerk signal obtained by deriving "time_body_acceleration_mean_yAxis"
+         
+time_body_acceleration_jerk_mean_zAxis : jerk signal obtained by deriving "time_body_acceleration_mean_zAxis"         
+
+time_body_gyroscope_mean_xAxis : mean of body angular velocity on X Axis captured at a constant rate of 50 Hz                   
+
+time_body_gyroscope_mean_yAxis : mean of body angular velocity on Y Axis captured at a constant rate of 50 Hz                 
+
+time_body_gyroscope_mean_zAxis : mean of body angular velocity on Z Axis captured at a constant rate of 50 Hz                 
+
+time_body_gyroscope_jerk_mean_xAxis : jerk signal obtained by deriving "time_body_gyroscope_mean_xAxis"           
+
+time_body_gyroscope_jerk_mean_yAxis : jerk signal obtained by deriving "time_body_gyroscope_mean_yAxis"            
+
+time_body_gyroscope_jerk_mean_zAxis : jerk signal obtained by deriving "time_body_gyroscope_mean_zAxis"            
+
+time_body_acceleration_magnitude_mean : mean of the magnitude, calculated using the Euclidean norm, of body linear acceleration         
+
+time_Gravity_acceleration_magnitude_mean : mean of the magnitude, calculated using the Euclidean norm, of gravity linear acceleration        
+
+time_body_acceleration_jerk_magnitude_mean : mean of the magnitude, calculated using the Euclidean norm, of body linear acceleration jerk     
+
+time_body_gyroscope_magnitude_mean : mean of the magnitude, calculated using the Euclidean norm, of body angular velocity              
+
+time_body_gyroscope_jerk_magnitude_mean : mean of the magnitude, calculated using the Euclidean norm, of body angular velocity jerk
+       
+frequency_body_acceleration_mean_xAxis : mean frequency, obtained applying Fast Fourier Transform (FFT), of body linear acceleration on X Axis          
+
+frequency_body_acceleration_mean_yAxis : mean frequency, obtained applying FFT, of body linear acceleration on Y Axis         
+
+frequency_body_acceleration_mean_zAxis : mean frequency, obtained applying FFT, of body linear acceleration on Z Axis         
+
+frequency_body_acceleration_jerk_mean_xAxis : mean frequency, obtained applying FFT, of body linear acceleration jerk on X Axis    
+
+frequency_body_acceleration_jerk_mean_yAxis : mean frequency, obtained applying FFT, of body linear acceleration jerk on Y Axis    
+
+frequency_body_acceleration_jerk_mean_zAxis : mean frequency, obtained applying FFT, of body linear acceleration jerk on Z Axis    
+
+frequency_body_gyroscope_mean_xAxis : mean frequency, obtained applying FFT, of body angular velocity on X Axis            
+
+frequency_body_gyroscope_mean_yAxis : mean frequency, obtained applying FFT, of body angular velocity on Y Axis
+             
+frequency_body_gyroscope_mean_zAxis : mean frequency, obtained applying FFT, of body angular velocity on Z Axis         
+
+frequency_body_acceleration_magnitude_mean : mean frequency magnitude of body linear acceleration     
+
+frequency_body_acceleration_jerk_magnitude_mean : mean frequency magnitude of body linear acceleration jerk
+
+frequency_body_gyroscope_magnitude_mean : mean frequency magnitude of body angular velocity     
+
+frequency_body_gyroscope_jerk_magnitude_mean: mean frequency magnitude of body angular velocity jerk   
+
+time_body_acceleration_std_xAxis : standart deviation of the body linear acceleration on X Axis captured at a constant rate of 50 Hz              
+
+time_body_acceleration_std_yAxis : standart deviation of the body linear acceleration on Y Axis captured at a constant rate of 50 Hz               
+
+time_body_acceleration_std_zAxis : standart deviation of the body linear acceleration on Z Axis captured at a constant rate of 50 Hz               
+
+time_Gravity_acceleration_std_xAxis : standart deviation of the gravity linear acceleration on X Axis captured at a constant rate of 50 Hz            
+
+time_Gravity_acceleration_std_yAxis : standart deviation of the gravity linear acceleration on Y Axis captured at a constant rate of 50 Hz            
+
+time_Gravity_acceleration_std_zAxis : standart deviation of the gravity linear acceleration on Z Axis captured at a constant rate of 50 Hz            
+
+time_body_acceleration_jerk_std_xAxis : standart deviation of the gravity linear acceleration jerk on X Axis captured at a constant rate of 50 Hz          
+
+time_body_acceleration_jerk_std_yAxis : standart deviation of the gravity linear acceleration jerk on Y Axis captured at a constant rate of 50 Hz          
+
+time_body_acceleration_jerk_std_zAxis : standart deviation of the gravity linear acceleration jerk on Z Axis captured at a constant rate of 50 Hz          
+
+time_body_gyroscope_std_xAxis : standart deviation of body angular velocity on X Axis captured at a constant rate of 50 Hz                   
+
+time_body_gyroscope_std_yAxis : standart deviation of body angular velocity on Y Axis captured at a constant rate of 50 Hz                 
+
+time_body_gyroscope_std_zAxis : standart deviation of body angular velocity on Z Axis captured at a constant rate of 50 Hz                  
+
+time_body_gyroscope_jerk_std_xAxis : standart deviation of body angular velocity jerk on X Axis captured at a constant rate of 50 Hz             
+
+time_body_gyroscope_jerk_std_yAxis : standart deviation of body angular velocity jerk on Y Axis captured at a constant rate of 50 Hz             
+
+time_body_gyroscope_jerk_std_zAxis : standart deviation of body angular velocity jerk on Z Axis captured at a constant rate of 50 Hz            
+
+time_body_acceleration_magnitude_std : standart deviation of body linear acceleration magnitude          
+
+time_Gravity_acceleration_magnitude_std : standart deviation of gravity linear acceleration magnitude        
+
+time_body_acceleration_jerk_magnitude_std : standart deviation of body linear acceleration jerk magnitude      
+
+time_body_gyroscope_magnitude_std : standart deviation of body angular velocity magnitude              
+
+time_body_gyroscope_jerk_magnitude_std : standart deviation of body angular velocity jerk magnitude         
+
+frequency_body_acceleration_std_xAxis : standart deviation of body linear acceleration frequency on X Axis         
+
+frequency_body_acceleration_std_yAxis : standart deviation of body linear acceleration frequency on Y Axis          
+
+frequency_body_acceleration_std_zAxis : standart deviation of body linear acceleration frequency on Z Axis          
+
+frequency_body_acceleration_jerk_std_xAxis : standart deviation of body linear acceleration jerk frequency on X Axis     
+
+frequency_body_acceleration_jerk_std_yAxis : standart deviation of body linear acceleration jerk frequency on Y Axis     
+
+frequency_body_acceleration_jerk_std_zAxis : standart deviation of body linear acceleration jerk frequency on Z Axis     
+
+frequency_body_gyroscope_std_xAxis : standart deviation of body angular velocity frequency on X Axis              
+
+frequency_body_gyroscope_std_yAxis : standart deviation of body angular velocity frequency on Y Axis             
+
+frequency_body_gyroscope_std_zAxis : standart deviation of body angular velocity frequency on Z Axis             
+
+frequency_body_acceleration_magnitude_std : standart deviation of body linear acceleration magnitude frequency      
+
+frequency_body_acceleration_jerk_magnitude_std : standart deviation of body linear acceleration jerk magnitude frequency 
+
+frequency_body_gyroscope_magnitude_std : standart deviation of body angular velocity magnitude frequency         
+
+frequency_body_gyroscope_jerk_magnitude_std : standart deviation of body angular velocity jerk magnitude frequency
